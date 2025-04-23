@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import './custom.scss'
 
 const App = () => {
   const [students, setStudent] = useState([]);
@@ -41,7 +42,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="p-8 bg-gray-100 min-h-screen">
+    <div className="p-8 custom min-h-screen">
       <h2 className="text-3xl font-semibold text-center mb-6">Student CRUD Task</h2>
       
       <div className="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md space-y-4">

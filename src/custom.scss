@@ -1,0 +1,10 @@
+ $primaycolor: #e1ccd5b0;
+ 
+ $text-color: purple;
+
+.custom{
+    background: $primaycolor;
+    color: red;
+    color: $text-color;
+    
+}
